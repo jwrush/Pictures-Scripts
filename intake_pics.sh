@@ -11,10 +11,12 @@ _intake () {
 
   echo "Moving $1 from Downloads to $PWD ..."
 
-  NUM_MOVED=$(mv ~/Downloads/$1 ./ | wc -l)
+  NUM_MOVED=$(mv -v ~/Downloads/$1 ./ | wc -l)
 
   echo "... $NUM_MOVED moved."
 }
 
 _intake "*.jpg"
+_intake "*.jpeg"
+_intake "*.bmp"
 _intake "*.png"

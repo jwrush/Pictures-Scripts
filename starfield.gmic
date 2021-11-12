@@ -1,0 +1,2 @@
+starfield :
+   noise 10,0 adjust_colors -50,55,0 normalize 0,256 threshold 60%,1 adjust_colors 0,0,0,0,-80

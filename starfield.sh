@@ -1,0 +1,1 @@
+gmic 1024,1024,1,1 -noise 60 2 -lightness. cut 0,255. -adjust_colors -85,30 +adjust_colors -70,40 -resize[-1] 200%,200% -resize[-1] 53%,53% -threshold[-1] 99% -rotate[-1] 180 -normalize 0,255 +blend screen
